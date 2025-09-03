@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+  
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="profolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <link rel="icon" type="image/png" href="favicon.png" />
+  
+  <link rel="manifest" href="manifest.json">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Flutter Web Firebase Example">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio</title>
+
+  <script>
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyCtxmEqJRjOSOEkh9zOHLVgQN2Vp0-lnA8",
+        authDomain: "portfolio-6b5cc.firebaseapp.com",
+        projectId: "portfolio-6b5cc",
+        storageBucket: "portfolio-6b5cc.firebasestorage.app",
+        messagingSenderId: "13985832794",
+        appId: "1:13985832794:web:5f65228664a16161f09d63",
+        measurementId: "G-4PD4CS399M"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>
